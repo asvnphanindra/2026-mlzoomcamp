@@ -8,12 +8,19 @@ Repo-wide workflow: [`../readme/USER_GUIDE.md`](../readme/USER_GUIDE.md)
 
 ## 1. Setup
 
+Use the dedicated conda env **`ml-zoomcamp`** (Python 3.12).
+
 ```bash
-cd HW1
-pip install -r requirements.txt
+# already created on this machine; recreate if needed:
+conda env create -f ../environment.yml
+# or: conda activate ml-zoomcamp && pip install -r requirements.txt
+
+conda activate ml-zoomcamp
 ```
 
-Needs: Python 3.10+, NumPy, Pandas, Matplotlib, Seaborn, Jupyter (or Cursor/VS Code Jupyter).
+In Cursor/VS Code, select kernel **Python (ml-zoomcamp)** for `homework.ipynb`.
+
+Interpreter path: `C:\Users\phani\miniconda3\envs\ml-zoomcamp\python.exe`
 
 ---
 
@@ -46,7 +53,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/DataTalksClub/machine-
 
 | Question | What it asks | Answer in this repo |
 |----------|--------------|---------------------|
-| Q1 | Pandas version | Your `pd.__version__` (here: `3.0.5`) |
+| Q1 | Pandas version | Your `pd.__version__` (in `ml-zoomcamp`: `3.0.6`) |
 | Q2 | Number of records | `10000` |
 | Q3 | Number of fuel types | `3` |
 | Q4 | Columns with missing values | `2` |

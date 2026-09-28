@@ -7,18 +7,23 @@ For homework-specific steps and answers, open that folder’s `USER_GUIDE.md` (e
 
 ## 1. Prerequisites
 
-- Python 3.10+ (3.12/3.13 fine)
-- `pip` available in your terminal
-- Optional: Jupyter, or Cursor/VS Code with the Python + Jupyter extensions
-
-Install packages inside the homework folder you are working on:
+Use the shared conda environment **`ml-zoomcamp`** for all homework in this repo.
 
 ```bash
-cd HW1   # or HW2, HW3, …
-pip install -r requirements.txt
+conda activate ml-zoomcamp
 ```
 
-Typical packages: `numpy`, `pandas`, `matplotlib`, `seaborn`, `jupyter`.
+Create / recreate from the repo root:
+
+```bash
+conda env create -f environment.yml
+# updates later:
+# conda activate ml-zoomcamp && pip install -r HW1/requirements.txt
+```
+
+In Cursor/VS Code notebooks, pick kernel **Python (ml-zoomcamp)**.
+
+Interpreter: `C:\Users\phani\miniconda3\envs\ml-zoomcamp\python.exe`
 
 ---
 

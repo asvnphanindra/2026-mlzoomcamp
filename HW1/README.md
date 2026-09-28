@@ -27,9 +27,11 @@ ML vs rule-based systems · supervised learning · CRISP-DM · model selection �
 ## Quick start
 
 ```bash
+conda activate ml-zoomcamp
 cd HW1
-pip install -r requirements.txt
 jupyter notebook homework.ipynb
 ```
+
+Kernel: **Python (ml-zoomcamp)** · Env file: [`../environment.yml`](../environment.yml)
 
 Repo-level docs: [`../readme/README.md`](../readme/README.md) · [`../readme/USER_GUIDE.md`](../readme/USER_GUIDE.md)

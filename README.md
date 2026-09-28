@@ -9,7 +9,9 @@ Personal coursework for [ML Zoomcamp 2026](https://courses.datatalks.club/ml-zoo
 | HW1 | [`HW1/README.md`](HW1/README.md) · [`HW1/USER_GUIDE.md`](HW1/USER_GUIDE.md) |
 
 ```bash
+conda activate ml-zoomcamp
 cd HW1
-pip install -r requirements.txt
 jupyter notebook homework.ipynb
 ```
+
+Kernel: **Python (ml-zoomcamp)** · See [`environment.yml`](environment.yml)
