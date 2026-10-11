@@ -1,7 +1,7 @@
 # User Guide — repository
 
 How to use this repo for ML Zoomcamp homework in general.  
-For homework-specific steps and answers, open that folder’s `USER_GUIDE.md` (e.g. [`HW1/USER_GUIDE.md`](../HW1/USER_GUIDE.md)).
+For homework-specific steps and answers, open that folder’s `USER_GUIDE.md` (e.g. [`HW3/USER_GUIDE.md`](../HW3/USER_GUIDE.md)).
 
 ---
 
@@ -18,7 +18,7 @@ Create / recreate from the repo root:
 ```bash
 conda env create -f environment.yml
 # updates later:
-# conda activate ml-zoomcamp && pip install -r HW1/requirements.txt
+# conda activate ml-zoomcamp && pip install -r HW3/requirements.txt
 ```
 
 In Cursor/VS Code notebooks, pick kernel **Python (ml-zoomcamp)**.
@@ -29,7 +29,7 @@ Interpreter: `C:\Users\phani\miniconda3\envs\ml-zoomcamp\python.exe`
 
 ## 2. Working on any homework
 
-1. Open the homework folder (e.g. `HW1/`).
+1. Open the homework folder (e.g. `HW3/`).
 2. Read that folder’s `README.md` for overview and deadline.
 3. Follow that folder’s `USER_GUIDE.md` for run/submit steps.
 4. Open `homework.ipynb` and run cells top to bottom.

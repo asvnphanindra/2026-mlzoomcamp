@@ -8,10 +8,11 @@ Personal coursework for [ML Zoomcamp 2026](https://courses.datatalks.club/ml-zoo
 | Repo user guide | [`readme/USER_GUIDE.md`](readme/USER_GUIDE.md) |
 | HW1 | [`HW1/README.md`](HW1/README.md) · [`HW1/USER_GUIDE.md`](HW1/USER_GUIDE.md) |
 | HW2 | [`HW2/README.md`](HW2/README.md) · [`HW2/USER_GUIDE.md`](HW2/USER_GUIDE.md) |
+| HW3 | [`HW3/README.md`](HW3/README.md) · [`HW3/USER_GUIDE.md`](HW3/USER_GUIDE.md) |
 
 ```bash
 conda activate ml-zoomcamp
-cd HW2
+cd HW3
 jupyter notebook homework.ipynb
 ```
 

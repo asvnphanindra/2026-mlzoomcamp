@@ -13,29 +13,31 @@ This folder (`readme/`) holds **repo-level** docs. Each homework folder has its 
 ├── readme/                   # Repo-level documentation
 │   ├── README.md             # This file
 │   └── USER_GUIDE.md         # How to use the repo in general
-└── HW1/                      # Homework 1 — Introduction
-    ├── README.md             # HW1 overview
-    ├── USER_GUIDE.md         # HW1 how-to + answers
+├── HW1/                      # Homework 1 — Introduction
+├── HW2/                      # Homework 2 — Regression
+└── HW3/                      # Homework 3 — Classification
+    ├── README.md             # HW overview
+    ├── USER_GUIDE.md         # How-to + answers
     ├── homework.ipynb
-    ├── car_fuel_efficiency_2026.csv
+    ├── course_lead_scoring_2026.csv
     └── requirements.txt
 ```
 
-Later modules follow the same pattern (`HW2/`, `HW3/`, …), each with its own README and USER_GUIDE.
+Each homework folder follows the same pattern (`README.md`, `USER_GUIDE.md`, notebook, data, `requirements.txt`).
 
 ## Quick start
 
 ```bash
 conda activate ml-zoomcamp
-cd HW1
+cd HW3
 jupyter notebook homework.ipynb
 ```
 
-Or open `HW1/homework.ipynb` in Cursor/VS Code and select kernel **Python (ml-zoomcamp)**.
+Or open `HW3/homework.ipynb` in Cursor/VS Code and select kernel **Python (ml-zoomcamp)**.
 
 Env definition: [`../environment.yml`](../environment.yml)
 
-See also: [USER_GUIDE.md](USER_GUIDE.md) · [HW1 docs](../HW1/README.md)
+See also: [USER_GUIDE.md](USER_GUIDE.md) · [HW3 docs](../HW3/README.md)
 
 ## Course links
 
@@ -43,14 +45,16 @@ See also: [USER_GUIDE.md](USER_GUIDE.md) · [HW1 docs](../HW1/README.md)
 |----------|-----|
 | Course platform (deadlines + submit) | https://courses.datatalks.club/ml-zoomcamp-2026/ |
 | Course GitHub | https://github.com/DataTalksClub/machine-learning-zoomcamp |
-| HW1 homework text | https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/01-intro/homework.md |
-| HW1 submit form | https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw01 |
+| HW3 homework text | https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/03-classification/homework.md |
+| HW3 submit form | https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw03 |
 
 ## Current status
 
-| Homework | Folder | Deadline (IST) | Status |
-|----------|--------|----------------|--------|
-| HW1 Introduction | [`HW1/`](../HW1/) | Tue 29 Sep 2026, 4:30 AM | Notebook ready — submit on course site |
+| Homework | Folder | Deadline | Status |
+|----------|--------|----------|--------|
+| HW1 Introduction | [`HW1/`](../HW1/) | Tue 29 Sep 2026, 4:30 AM IST | Notebook ready |
+| HW2 Regression | [`HW2/`](../HW2/) | Mon 5 Oct 2026, 23:00 | Notebook ready |
+| HW3 Classification | [`HW3/`](../HW3/) | Mon 12 Oct 2026, 23:00 | Notebook ready — submit on course site |
 
 ## License / notes
 
